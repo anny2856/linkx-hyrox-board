@@ -1,0 +1,11 @@
+{
+  "name": "sites-worker-esm-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node test.mjs",
+    "dev": "node build.mjs && node preview.mjs",
+    "validate": "node scripts/validate-artifact.mjs"
+  }
+}
